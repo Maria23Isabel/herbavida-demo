@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime-hePW80VL.js";import{B as t}from"./createReactComponent-DxBsiQjS.js";var n=e(t(),1),r=`Herbavida · El poder de la naturaleza en tu salud`;function i(e){(0,n.useEffect)(()=>{if(e)return document.title=e,()=>{document.title=r}},[e])}export{i as t};
