@@ -1,0 +1,1 @@
+import{f as e}from"./createReactComponent-rD7FPQgR.js";import{n as t,r as n}from"./auth-B6bT75w-.js";function r(){let{data:e}=n(),t=e?.role.name;return{user:e,isManager:t===`admin`||t===`superadmin`,isSuperadmin:t===`superadmin`}}function i(){let n=t(),r=e();return()=>n.mutate(void 0,{onSettled:()=>r(`/login`,{replace:!0})})}export{i as n,r as t};

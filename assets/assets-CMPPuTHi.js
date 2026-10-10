@@ -1,0 +1,1 @@
+var e=e=>e.startsWith(`/`)?`${`/herbavida-demo/`.replace(/\/$/,``)}${e}`:e,t=/^(https:\/\/res\.cloudinary\.com\/[^/]+\/image\/upload\/)(.+)$/;function n(n,r){let i=t.exec(n);return!i||/^[a-z]{1,3}_[^/]*\//.test(i[2])?e(n):`${i[1]}f_auto,q_auto,c_limit,w_${r}/${i[2]}`}export{n,e as t};

@@ -1,0 +1,8 @@
+# El catálogo es público; el panel y las cotizaciones (enlaces privados de cada cliente) no se indexan.
+User-agent: *
+Disallow: /admin
+Disallow: /login
+Disallow: /c/
+Disallow: /cotizacion
+Disallow: /recuperar
+Disallow: /restablecer/
